@@ -1,0 +1,159 @@
+/* Pocketa - Main Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5eee5;
+    color: #3b2418;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #795548;
+    font-size: 16px;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+section {
+    background: #fffaf4;
+    border-radius: 20px;
+    padding: 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(70, 45, 30, 0.08);
+}
+
+section h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+section:first-of-type {
+    background: #5b3826;
+    color: white;
+    padding: 28px;
+}
+
+section:first-of-type h2 {
+    color: #e8d6c4;
+}
+
+section:first-of-type p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button {
+    background: #5b3826;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #754a32;
+}
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #f5eee5;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background: #fffaf4;
+    padding: 35px 25px;
+    border-radius: 28px;
+    box-shadow: 0 8px 30px rgba(70, 45, 30, 0.12);
+}
+
+.login-card h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #5b3826;
+    margin-bottom: 8px;
+}
+
+.login-card .welcome {
+    text-align: center;
+    color: #795548;
+    margin-bottom: 30px;
+}
+
+.login-card h2 {
+    color: #3b2418;
+    margin-bottom: 20px;
+}
+
+.login-card label {
+    display: block;
+    margin-bottom: 7px;
+    color: #5b3826;
+    font-weight: bold;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d8c5b5;
+    border-radius: 12px;
+    background: #ffffff;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.login-card input:focus {
+    outline: none;
+    border-color: #5b3826;
+}
+
+.login-card .sign-in-button {
+    width: 100%;
+    margin: 10px 0 20px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.login-card .create-account {
+    text-align: center;
+    color: #795548;
+  font: size 4px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.login-card .create-account a {
+    color: #2196f3;
+  font-size: 14px;
+    font-weight: normal;
+    text-decoration: underlie;
+
+  
+}
